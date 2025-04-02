@@ -10,5 +10,5 @@ let days_since_2025 = Math.round(time_since_2025/day)
 const ctime = 354
 document.getElementById("tuc").textContent = String(ctime-days_since_2025)
 
-const svtime = 788
+const svtime = 880
 document.getElementById("tuitsv").textContent = String(svtime-days_since_2025)
